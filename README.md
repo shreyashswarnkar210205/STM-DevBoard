@@ -1,16 +1,20 @@
 STM-OWN Development Board
-Custom STM-based development board designed and built using KiCad.
-This project includes the complete schematic, PCB layout, 3D views, and fabrication files for the board.
-The goal of this project was to design a custom microcontroller development board similar to Blue Pill–style boards, allowing easier integration into embedded projects.
+Custom STM-based development board designed using KiCad.
+This project contains the complete hardware design files including:
+Schematic
+PCB layout
+3D board renders
+Fabrication-ready layout files
+The goal of this project was to design a custom STM microcontroller board similar to Blue Pill style development boards, making it easier to integrate into embedded systems and prototypes.
 Project Overview
-This repository contains the full hardware design files for a custom STM microcontroller board.
+This repository contains the full hardware design files for a custom STM microcontroller development board.
 The design includes:
 Custom PCB designed in KiCad
-Full schematic design
-PCB layout and routing
+Complete schematic design
+Fully routed PCB layout
 3D visualization renders
-Manufacturing ready layout files
-The board can be used for:
+Manufacturing-ready design files
+This board can be used for:
 Embedded system development
 Microcontroller experimentation
 Hardware prototyping
@@ -18,35 +22,31 @@ Learning PCB design workflows
 Project Structure
 STM-OWN
 │
-├── Main/                 # KiCad project files
+├── Main/
 │   ├── Main.kicad_pcb
 │   ├── Main.kicad_sch
 │   ├── Main.kicad_pro
 │
-├── SIGN.pretty/         # Custom footprint library
+├── SIGN.pretty/
 │
-├── LAYOUT.png           # PCB layout preview
-├── FRONT.png            # Front render
-├── BACK.png             # Back render
-├── ANGLE-1.png          # 3D view
-├── ANGLE-2.png          # 3D view
+├── LAYOUT.png
+├── FRONT.png
+├── BACK.png
+├── ANGLE-1.png
+├── ANGLE-2.png
 │
-├── Layout.pdf           # PCB layout export
-├── Schematic.pdf        # Circuit schematic
-├── Basic.pdf            # Additional documentation
+├── Layout.pdf
+├── Schematic.pdf
+├── Basic.pdf
 │
 └── README.md
 PCB Design
 The board was designed using KiCad and includes:
 Fully routed PCB
 Custom footprint library
-Clean component placement
-3D visualization for verification
-Layout Preview
-Front View
-Back View
-Design Files
-Important files included in the repository:
+Optimized component placement
+3D board visualization
+Important Files
 File	Description
 Main.kicad_sch	Complete schematic
 Main.kicad_pcb	PCB layout
@@ -62,10 +62,9 @@ https://kicad.org
 How to Open the Project
 Install KiCad
 Clone the repository
-git clone https://github.com/YOUR_USERNAME/STM-OWN.git
-Open
+git clone https://github.com/shreyashswarnkar210205/STM-OWN.git
+Open the project file inside KiCad
 Main/Main.kicad_pro
-inside KiCad.
 Features
 Custom STM development board
 Clean schematic design
