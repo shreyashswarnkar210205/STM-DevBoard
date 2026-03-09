@@ -1,25 +1,26 @@
-STM-OWN Development Board
-Custom STM-based development board designed using KiCad.
-This project contains the complete hardware design files including:
-Schematic
-PCB layout
-3D board renders
-Fabrication-ready layout files
-The goal of this project was to design a custom STM microcontroller board similar to Blue Pill style development boards, making it easier to integrate into embedded systems and prototypes.
-Project Overview
-This repository contains the full hardware design files for a custom STM microcontroller development board.
-The design includes:
-Custom PCB designed in KiCad
+⚡ STM Custom Development Board
+A custom STM-based development board designed using KiCad, inspired by Blue Pill–style boards for embedded development and rapid prototyping.
+This project demonstrates a complete PCB design workflow including schematic capture, footprint creation, PCB layout, 3D visualization, and manufacturing file generation.
+🧠 Overview
+This board integrates:
+STM microcontroller core
+USB programming interface
+3.3V voltage regulation
+Boot and reset circuitry
+Status LEDs
+GPIO breakout headers
+Programming/debug interface
+External crystal oscillator
+Power filtering and decoupling network
+The goal of this design is to create a compact and reusable development board for embedded system experimentation.
+🛠 PCB Design
+The board was designed using KiCad and includes:
 Complete schematic design
 Fully routed PCB layout
-3D visualization renders
+Custom symbol and footprint libraries
+3D board visualization
 Manufacturing-ready design files
-This board can be used for:
-Embedded system development
-Microcontroller experimentation
-Hardware prototyping
-Learning PCB design workflows
-Project Structure
+📂 Repository Structure
 STM-OWN
 │
 ├── Main/
@@ -27,56 +28,53 @@ STM-OWN
 │   ├── Main.kicad_sch
 │   ├── Main.kicad_pro
 │
-├── SIGN.pretty/
+├── SIGN.pretty/          # Custom footprint library
 │
-├── LAYOUT.png
-├── FRONT.png
-├── BACK.png
-├── ANGLE-1.png
-├── ANGLE-2.png
+├── LAYOUT.png            # PCB layout preview
+├── FRONT.png             # Front render
+├── BACK.png              # Back render
+├── ANGLE-1.png           # 3D view
+├── ANGLE-2.png           # 3D view
 │
-├── Layout.pdf
-├── Schematic.pdf
-├── Basic.pdf
+├── Layout.pdf            # PCB layout export
+├── Schematic.pdf         # Circuit schematic
+├── Basic.pdf             # Additional documentation
 │
 └── README.md
-PCB Design
-The board was designed using KiCad and includes:
-Fully routed PCB
-Custom footprint library
-Optimized component placement
-3D board visualization
-Important Files
-File	Description
-Main.kicad_sch	Complete schematic
-Main.kicad_pcb	PCB layout
-Main.kicad_pro	KiCad project configuration
-SIGN.pretty	Custom footprint library
-Layout.pdf	PCB layout export
-Schematic.pdf	Circuit schematic
-Requirements
-To open and edit the project you need:
+🔧 Hardware Features
+STM microcontroller based design
+USB interface for programming and power
+3.3V regulated power supply
+Boot and reset buttons
+GPIO header breakout
+Status indicator LEDs
+External crystal oscillator
+Decoupling and filtering network
+🧩 Design Workflow
+This project demonstrates:
+Schematic design in KiCad
+Custom symbol creation
+Custom footprint creation
+PCB layout and routing
+3D PCB validation
+Design rule checks (DRC)
+Manufacturing export files
+🖥 Requirements
+To open the project you need:
 KiCad 7 or newer
 Download:
 https://kicad.org
-How to Open the Project
-Install KiCad
-Clone the repository
+🚀 Getting Started
+Clone the repository:
 git clone https://github.com/shreyashswarnkar210205/STM-OWN.git
-Open the project file inside KiCad
+Open the project in KiCad:
 Main/Main.kicad_pro
-Features
-Custom STM development board
-Clean schematic design
-Optimized PCB routing
-Custom footprints
-3D PCB visualization
-Learning Goals
-This project was created to practice:
+📘 Learning Goals
+This project was built to practice:
 PCB design workflow
-KiCad project structuring
-Footprint management
-PCB routing and layout
-Hardware documentation
-License
-This project is open-source and available for learning and experimentation.
+KiCad project management
+Embedded hardware design
+Component placement strategies
+PCB routing techniques
+📜 License
+This project is open-source and intended for learning and experimentation.
